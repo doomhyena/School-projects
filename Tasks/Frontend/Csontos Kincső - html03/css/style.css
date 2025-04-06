@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('pics/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.schedule-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #006400;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #006400;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.table-logo {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #243010;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+    position: dynamic;
+    bottom: 0;
+}

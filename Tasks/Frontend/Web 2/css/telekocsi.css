@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tartalom {
+    background-color: lightblue;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    width: 100%;
+    background-color: blue;
+    color: yellow;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+li {
+    display: inline;
+    padding-left: 40px;
+}
+
+.auto
+    {
+    float: right;
+}
+
+.kiemelt {
+    color: red;
+}
+
+body {
+    background-color: blue;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}

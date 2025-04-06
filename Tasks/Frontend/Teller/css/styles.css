@@ -1,0 +1,59 @@
+body {
+  background: url('../pics/physics_back.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  margin: 5px;
+  text-indent: 15px;
+  line-height: 140%;
+  text-align: justify;
+}
+
+#tartalom {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 30px;
+  width: 70%;
+  padding: 30px;
+  margin: auto;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-image: url('../pics/physics_icon.png');
+  padding-left: 20px;
+}
+
+#teller_kep {
+  max-width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+#teller_kep:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.ms-3 {
+  margin-left: 1rem;
+}
+
+.me-3 {
+  margin-right: 1rem;
+}
