@@ -1,0 +1,16 @@
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\bin\Debug\net8.0-windows\Projekt2_Szamologep.exe
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\bin\Debug\net8.0-windows\Projekt2_Szamologep.deps.json
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\bin\Debug\net8.0-windows\Projekt2_Szamologep.runtimeconfig.json
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\bin\Debug\net8.0-windows\Projekt2_Szamologep.dll
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\bin\Debug\net8.0-windows\Projekt2_Szamologep.pdb
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\Projekt2_Szamologep.Form1.resources
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\Projekt2_Szamologep.csproj.GenerateResource.cache
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\Projekt2_Szamologep.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\Projekt2_Szamologep.AssemblyInfoInputs.cache
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\Projekt2_Szamologep.AssemblyInfo.cs
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\Projekt2_Szamologep.csproj.CoreCompileInputs.cache
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\Projekt2_Szamologep.dll
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\refint\Projekt2_Szamologep.dll
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\Projekt2_Szamologep.pdb
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\Projekt2_Szamologep.genruntimeconfig.cache
+C:\Users\kiss.adam\source\repos\Projekt2_Szamologep\Projekt2_Szamologep\obj\Debug\net8.0-windows\ref\Projekt2_Szamologep.dll

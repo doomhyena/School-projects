@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Projekt12_NépességStat/1.0.0": {
+        "runtime": {
+          "Projekt12_NépességStat.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projekt12_NépességStat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

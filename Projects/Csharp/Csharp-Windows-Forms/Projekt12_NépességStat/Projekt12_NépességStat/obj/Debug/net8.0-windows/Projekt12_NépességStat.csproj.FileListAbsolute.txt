@@ -1,0 +1,16 @@
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\bin\Debug\net8.0-windows\Projekt12_NépességStat.exe
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\bin\Debug\net8.0-windows\Projekt12_NépességStat.deps.json
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\bin\Debug\net8.0-windows\Projekt12_NépességStat.runtimeconfig.json
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\bin\Debug\net8.0-windows\Projekt12_NépességStat.dll
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\bin\Debug\net8.0-windows\Projekt12_NépességStat.pdb
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\Projekt12_NépességStat.Form1.resources
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\Projekt12_NépességStat.csproj.GenerateResource.cache
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\Projekt12_NépességStat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\Projekt12_NépességStat.AssemblyInfoInputs.cache
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\Projekt12_NépességStat.AssemblyInfo.cs
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\Projekt12_NépességStat.csproj.CoreCompileInputs.cache
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\Projekt12_NépességStat.dll
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\refint\Projekt12_NépességStat.dll
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\Projekt12_NépességStat.pdb
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\Projekt12_NépességStat.genruntimeconfig.cache
+C:\Users\kiss.adam\source\repos\Projekt12_NépességStat\Projekt12_NépességStat\obj\Debug\net8.0-windows\ref\Projekt12_NépességStat.dll

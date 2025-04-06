@@ -1,0 +1,9 @@
+S:/Szoftver/Szoftver13/KZ/A/ConsoleApps_A/OOP_Cursor_A/bin/Debug/OOP_Cursor_A.exe.config
+S:/Szoftver/Szoftver13/KZ/A/ConsoleApps_A/OOP_Cursor_A/bin/Debug/OOP_Cursor_A.exe
+S:/Szoftver/Szoftver13/KZ/A/ConsoleApps_A/OOP_Cursor_A/bin/Debug/OOP_Cursor_A.pdb
+S:/Szoftver/Szoftver13/KZ/A/ConsoleApps_A/OOP_Cursor_A/obj/Debug/OOP_Cursor_A.csproj.AssemblyReference.cache
+S:/Szoftver/Szoftver13/KZ/A/ConsoleApps_A/OOP_Cursor_A/obj/Debug/OOP_Cursor_A.csproj.CoreCompileInputs.cache
+S:/Szoftver/Szoftver13/KZ/A/ConsoleApps_A/OOP_Cursor_A/obj/Debug/OOP_Cursor_A.exe
+S:/Szoftver/Szoftver13/KZ/A/ConsoleApps_A/OOP_Cursor_A/obj/Debug/OOP_Cursor_A.pdb
+/home/doomhyena/Dokumentumok/Programming/Csharp/Csontos_Kincso_Csharp_Hazi_Feladat/OOP_Cursor_A/obj/Debug/OOP_Cursor_A.exe
+/home/doomhyena/Dokumentumok/Programming/Csharp/Csontos_Kincso_Csharp_Hazi_Feladat/OOP_Cursor_A/obj/Debug/OOP_Cursor_A.pdb

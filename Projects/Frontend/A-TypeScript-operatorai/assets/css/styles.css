@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../pics/TypeScriptBack.jpg') center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+#content {
+  width: 80%;
+  margin: 5% auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #087AC8;
+}
+
+#picture {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  float: right;
+}
+
+.highlight {
+  color: #087AC8;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.expression {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #087AC8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead th {
+  background: #087AC8;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+table tbody td {
+  background: white;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid gray;
+}
+
+table tbody td:first-child {
+  text-align: center;
+}
+
+.table-hover tbody tr:hover {
+  background: rgba(8, 122, 200, 0.2);
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #087AC8;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #005f99;
+}

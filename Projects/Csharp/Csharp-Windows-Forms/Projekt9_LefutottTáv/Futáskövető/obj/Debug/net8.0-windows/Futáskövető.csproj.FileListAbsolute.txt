@@ -1,0 +1,16 @@
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\bin\Debug\net8.0-windows\Futáskövető.exe
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\bin\Debug\net8.0-windows\Futáskövető.deps.json
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\bin\Debug\net8.0-windows\Futáskövető.runtimeconfig.json
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\bin\Debug\net8.0-windows\Futáskövető.dll
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\bin\Debug\net8.0-windows\Futáskövető.pdb
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\Futáskövető.Form1.resources
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\Futáskövető.csproj.GenerateResource.cache
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\Futáskövető.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\Futáskövető.AssemblyInfoInputs.cache
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\Futáskövető.AssemblyInfo.cs
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\Futáskövető.csproj.CoreCompileInputs.cache
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\Futáskövető.dll
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\refint\Futáskövető.dll
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\Futáskövető.pdb
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\Futáskövető.genruntimeconfig.cache
+C:\Users\kiss.adam\source\repos\Futáskövető\Futáskövető\obj\Debug\net8.0-windows\ref\Futáskövető.dll

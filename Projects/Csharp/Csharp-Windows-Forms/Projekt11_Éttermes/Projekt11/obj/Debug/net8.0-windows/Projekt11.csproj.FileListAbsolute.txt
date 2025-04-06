@@ -1,0 +1,16 @@
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\bin\Debug\net8.0-windows\Projekt11.exe
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\bin\Debug\net8.0-windows\Projekt11.deps.json
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\bin\Debug\net8.0-windows\Projekt11.runtimeconfig.json
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\bin\Debug\net8.0-windows\Projekt11.dll
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\bin\Debug\net8.0-windows\Projekt11.pdb
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\Projekt11.Form1.resources
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\Projekt11.csproj.GenerateResource.cache
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\Projekt11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\Projekt11.AssemblyInfoInputs.cache
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\Projekt11.AssemblyInfo.cs
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\Projekt11.csproj.CoreCompileInputs.cache
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\Projekt11.dll
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\refint\Projekt11.dll
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\Projekt11.pdb
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\Projekt11.genruntimeconfig.cache
+C:\Users\kiss.adam\source\repos\Projekt11\Projekt11\obj\Debug\net8.0-windows\ref\Projekt11.dll
