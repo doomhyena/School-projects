@@ -1,0 +1,7 @@
+C:\Users\Csontos Kincső\source\repos\erettsegifeladatok\2006telefonszamla\bin\Debug\2006telefonszamla.exe.config
+C:\Users\Csontos Kincső\source\repos\erettsegifeladatok\2006telefonszamla\bin\Debug\2006telefonszamla.exe
+C:\Users\Csontos Kincső\source\repos\erettsegifeladatok\2006telefonszamla\bin\Debug\2006telefonszamla.pdb
+C:\Users\Csontos Kincső\source\repos\erettsegifeladatok\2006telefonszamla\obj\Debug\2006telefonszamla.csproj.AssemblyReference.cache
+C:\Users\Csontos Kincső\source\repos\erettsegifeladatok\2006telefonszamla\obj\Debug\2006telefonszamla.csproj.CoreCompileInputs.cache
+C:\Users\Csontos Kincső\source\repos\erettsegifeladatok\2006telefonszamla\obj\Debug\2006telefonszamla.exe
+C:\Users\Csontos Kincső\source\repos\erettsegifeladatok\2006telefonszamla\obj\Debug\2006telefonszamla.pdb
