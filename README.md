@@ -1,2 +1,2 @@
 # School-projects
-This repo conains all of the school projects
+This repo contains all of the school projects
