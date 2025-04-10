@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Koordináta Rendszer</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="fejlec">
+    <h1>Függvények ábrázolása</h1>
+  </header>
+  <section class="kontener">
+    <div class="inputTer">
+      <h2>Pont hozzáadása</h2>
+      <label for="xErtek">X érték:</label>
+      <input type="number" id="xErtek" step="any">
+      <label for="yErtek">Y érték:</label>
+      <input type="number" id="yErtek" step="any">
+      <button id="pontHozzaad">Pont hozzáadása</button>
+    </div>
+    <div class="inputTer">
+      <h2>Függvény ábrázolása</h2>
+      <label for="fuggvenyInput">f(x) = </label>
+      <input type="text" id="fuggvenyInput" placeholder="pl. x*x+2">
+      <button id="fuggvenyRajzol">Függvény rajzolása</button>
+    </div>
+    <canvas id="koordinataRendszer" width="600" height="600"></canvas>
+  </section>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
