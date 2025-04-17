@@ -1,0 +1,33 @@
+
+
+	1. Feladat
+		Írd ki a nevedet aképernyőre.
+	2. Feladat
+		Készíts három változót:
+			a = 5
+			b = 10
+			c = 3
+		Írd ki, hogy a és b összege mennyi maradékot ad c-vel elosztva.
+	3. Feladat
+		Generáltass 2 random számot, és írd ki az összegüket, szorzatukat.
+	4. Feladat
+		Hozz létre egy listát három alap értékkel:
+			András, Béla, Cecília
+		Írasd ki for ciklussal külön sorokba az összes elemét a listának.
+	5. Feladat
+		Hozz létre egy üres listát.
+		Töltsd fel a listát 50 számmal a következő feltételek szerint:
+			Minden lefutáskor generáltass egy random számot 1 és 12 között
+			A listába csak a 10-nél kisebb páratlan számok kerüljenek.
+	6. Feladat
+		Készíts egy üres listát.
+		Töltsd fel a listát 100 random számmal 0 és 5 között.
+		For ciklussal számold meg, hogy pontosan hányszor szerepel 0 a listában.
+		Írd ki a végeredményt.
+	7. Feladat
+		Készíts egy üres listát.
+		Töltsd fel a listát 100 darab random számmal 0 és 1000 között, de figyelj, hogy mindegyik szám csak egyszer szerepeljen.
+		Ezek után keresd meg a lista legkisebb és legnagyobb elemét, és írd ki.
+		
+	
+		

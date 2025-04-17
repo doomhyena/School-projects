@@ -1,0 +1,55 @@
+	
+	1. Feladat:
+	
+		Írd ki a nevedet a képernyőre.
+		
+	2. Feladat:
+	
+		Hozz létre 4 változót:
+		
+			a = 5
+			b = 7
+			c = 4
+			d = 2
+			
+		Írd ki a és c szorzatát.
+		Írd ki b és d hányadosát.
+		Írd ki, hogy b elosztva d-vel mennyi maradékot ad.
+		Szorozd össze a-t b-vel, c-t d-vel, majd írd ki, hogy a két szorzat hányadosa
+		menniy maradékot ad b-vel elosztva.
+		
+	3. Feladat:
+	
+		Hozz létre egy üres listát.
+		Töltsd fel a listát 100 darab random számmal 0 és 1000 között.
+		Mindegyik szám csak egyszer szerepeljen a listában.
+		
+	4. Feladat:
+	
+		Készíts egy üres listát.
+		Töltsd fel a listát 50 darab számmal 0 és 20 között.
+		Mindegyik szám szerepelhet többször is!
+		Írd ki minden második elemét a listának.
+		
+	5. Feladat:
+	
+		Készíts egy üres listát.
+		Töltsd fel a listát 1000 darab random számmal 0 és 5000 között.
+		Minden szám csak egyszer szerepljen!
+		Számold meg hány darab páros és hány darab páratlan szám van a listában.
+		
+	6. Feladat: 
+	
+		Készíts egy üres listát.
+		Töltsd fel a listát 100 darab random számmal 0 és 500 között.
+		Fontos, hogy csak a 100-nál nagyobb páratlan számok kerülhessenek a listába!
+		Írd ki a lista legnagyobb elemét.
+
+	7. Feladat:
+	
+		Készíts egy üres listát.
+		Töltsd fel a listát 100 darab random számmal 0 és 1000 között.
+		A listába csak a 200 és 800 közötti páros számok kerüljenek.
+		Számold meg hány darab szám van 500 alatt, és 500 fölött.
+		Írd ki a lista legkisebb elemét.
+		Írd ki, hogy hányszor van meg a 2 a lista legkisebb számában.
