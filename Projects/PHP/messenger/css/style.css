@@ -1,0 +1,213 @@
+:root{
+	--kek: 	#006AFF;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+nav{
+	overflow: hidden;
+	border-bottom: 2px solid #dedede;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+.menu-left{
+	float: left;
+}
+
+.menu-right{
+	float: right;
+}
+
+nav ul li a{
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color: var(--kek);
+	text-decoration: none;
+}
+
+/* REGLOG */
+.reglog{
+	margin: 20px auto;
+	box-shadow: 0px 0px 10px #dedede;
+	width: 350px;
+	padding: 10px;
+}
+
+.reglog .form-header{
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.reglog input[type=text], .reglog input[type=password]{
+	margin-bottom: 10px;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	font-size: 16px;
+	border: 2px solid #dedede;
+	border-radius: 5px;
+}
+
+.reglog input[type=submit]{
+	display: block;
+	background: var(--kek);
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.reglog .form-link{
+	display: block;
+	text-align: center;
+}
+
+.search-box{
+	margin: 20px auto;
+	width: 80%;
+	font-size: 20px;
+	padding: 7px 14px;
+	border-radius: 40px;
+	display: block;
+	border: 2px solid #dedede;
+}
+
+.users{
+	padding: 10px;
+}
+
+.user{
+	max-width: 450px;
+	margin: 20px auto;
+	box-shadow: 0px 0px 10px #dedede;
+	padding: 10px;
+}
+
+.user label{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.user input{
+	float: right;
+	background: var(--kek);
+	padding: 5px;
+	margin-top: -2px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* CONTENT */
+.content{
+	height: calc(100vh - 45px);
+	overflow: hidden;
+}
+
+.friends{
+	float: left;
+	height: 100%;
+	width: 200px;
+	border-right: 2px solid #dedede;
+	overflow-y: scroll;
+}
+
+.friend{
+	padding: 10px;
+	border-bottom: 2px solid #dedede;
+}
+
+.friend a{
+	text-decoration: none;
+	color: black;
+}
+
+.chat{
+	float: left;
+	width: calc(100% - 200px);
+}
+
+.chat .friend-name{
+	display: block;
+	font-size: 20px;
+	padding: 10px;
+	border-bottom: 2px solid #dedede;
+	font-weight: bold;
+	color: var(--kek);
+}
+
+.chat .messages{
+	height: calc(100vh - 140px);
+	border-bottom: 2px solid #dedede;
+	overflow-y: scroll;
+}
+
+.friend-message{
+	display: block;
+	padding: 5px;
+}
+
+.friend-message p{
+	background: #dedede;
+	padding: 7px;
+	display: inline-block;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.my-message{
+	display: block;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.my-message p{
+	float: right;
+	display: inline-block;
+	padding: 7px;
+	background: #e3e3e3;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.chat form{
+	padding: 10px;
+	width: 100%;
+	display: block;
+}
+
+.chat form input[type=text]{
+	width: 90%;
+	margin-right: 10px;
+	border: 2px solid #dedede;
+	padding: 5px;
+}
+
+.chat form input[type=submit]{
+	background: var(--kek);
+	font-weight: bold;
+	color: white;
+	border: none;
+	width: calc(100% - 20px - 90%);
+	padding: 7px;
+	cursor: pointer;
+}

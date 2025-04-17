@@ -1,0 +1,130 @@
+body {
+    overflow-y: auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #EFD0CA; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #5C7457; 
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    left: 20px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #979B8D; 
+}
+
+th {
+    background-color: #5C7457; 
+    color: white;
+}
+
+nav {
+    background-color: #C1BCAC;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #214E34; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #5C7457; 
+}
+
+form {
+    background-color: #F9F3E7; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="submit"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #979B8D; 
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+form input[type="submit"] {
+    background-color: #5C7457; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.stats, .ranking, .user-info {
+    background-color: #C1BCAC;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.user-info {
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .stats-container {
+        flex-direction: column;
+    }
+
+    .stats, .ranking, .user-info {
+        margin: 10px 0;
+    }
+}
