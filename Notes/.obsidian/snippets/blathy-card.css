@@ -1,0 +1,13 @@
+.callout[class*="blathy-card"],
+.schola-card {
+    background: linear-gradient(135deg, #5b62ff 0%, #b34bff 100%);
+    color: #ffffff !important;
+    border-radius: 14px;
+    padding: 14px 18px;
+    box-shadow: 0 4px 12px rgba(91, 98, 255, 0.4);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.callout[class*="blathy-card"] .callout-title {
+    color: #ffffff !important;
+}

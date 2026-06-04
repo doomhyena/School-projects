@@ -1,0 +1,91 @@
+<head>
+    <title>Legrosszabb UI verseny</title>    
+    <meta charset="UTF-8">
+</head>
+<body>
+    <style>
+        body {
+            background: linear-gradient(45deg, #a0522d, #3d2b1f, #800000);
+            font-family: Comic Sans MS, Papyrus, cursive;
+            text-align: center;
+            animation: villog 0.3s infinite;
+        }
+
+        .doboz {
+            margin-top: 100px;
+            padding: 20px;
+            border: 5px dashed purple;
+            background-color: orange;
+            box-shadow: 0 0 30px black;
+            display: inline-block;
+            transform: rotate(-2deg);
+        }
+
+        input {
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid green;
+            background-color: pink;
+            color: blue;
+            font-size: 18px;
+        }
+
+        button {
+            padding: 15px;
+            background-color: red;
+            color: yellow;
+            font-size: 20px;
+            border: 4px dotted black;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+            transform: scale(1.2) rotate(10deg);
+        }
+
+        .form-container {
+            display: none;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-shadow: 5px 5px lime;
+        }
+
+        marquee {
+            color: white;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        @keyframes villog {
+            0% { background-color: red; }
+            50% { background-color: yellow; }
+            100% { background-color: blue; }
+        }
+    </style>
+    <h1>Bejelentkezás</h1>
+    <div class="doboz">
+        <form style="background-color: yellow; padding: 20px;">
+            <p>🏤🙋‍♂️ ÜDVÜZLÜNK A BLÁTHY FÓRUMON! 🙋‍♂️🏤 </p>
+            <p>💳A bejelntkezéshez add meg a következő adatokat💳</p>
+            <input type="text" placeholder="👤Felhasználónév"><br>
+            <input type="password" placeholder="🤐Jelszó"><br>
+            <button onclick="alert('🚨A belépés sikertelen volt, kérlek próbáld meg újra!4!4!4!🚨')">Belépés</button><br><br>
+            <a href="register.html">Regisztráció</a>
+        </form>
+    </div>
+    <marquee scrollamount="20">🔥EZ AZ OLDAL A LEGJOBB OLDAL!4!4!🔥</marquee>
+    <footer>
+        <p>Készítette: Csontos Kincső Anasztázia 13/K - "Legrosszabb UI verseny"</p>
+    </footer>
+</body>

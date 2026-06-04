@@ -1,0 +1,13 @@
+.callout[class*="section-card"],
+.section-card {
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    border-radius: 14px;
+    padding: 14px 18px;
+    border: 1px solid var(--background-modifier-border);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.callout[class*="section-card"] .callout-title {
+    color: var(--text-normal) !important;
+}
