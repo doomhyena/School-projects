@@ -11,10 +11,14 @@
             "id": "aa739d7dec4a158f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Gráf nézet"
+              "type": "markdown",
+              "state": {
+                "file": "Vocational Training/Bláthy/halozatok-I/01.Modul/1.1.1 Hálózatok kötnek minket össze.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.1.1 Hálózatok kötnek minket össze"
             }
           }
         ]
@@ -209,6 +213,8 @@
   },
   "active": "aa739d7dec4a158f",
   "lastOpenFiles": [
+    "Vocational Training/Bláthy/halozatok-I/01.Modul",
+    "Vocational Training/Bláthy/halozatok-I/01.Modul/1.1.1 Hálózatok kötnek minket össze.md",
     "School/Vocational Training/Schola/14/Szakmai Angol/10.Lesson name.md",
     "School/Vocational Training/Schola/14/Szakmai Angol.md",
     "School/Vocational Training/Schola/14/Adatbázis II..md",
@@ -234,8 +240,6 @@
     "Personal/Diary/2026/2026-04-18.md",
     "School/Vocational Training/Schola/14/Adatbázis II/04.Bootstrap 5 Részletesjegyzet és komponensmagyarázat.md",
     "Personal/Diary/2023/2023-06-16.md",
-    "Personal/Diary/2023/2023-06-15.md",
-    "2026-04-19.md",
     "Projects/Last Bell 14.A",
     "Projects",
     "Personal",
