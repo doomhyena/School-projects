@@ -8,11 +8,11 @@
 
 ## 🏫 Tanulmányaim / Studies
 
-- **["Schola Europa Akadémia" Technikum, Gimnázium és Alapfokú Művészeti Iskola](https://scholaeu.hu/)** — `2024.09.01.` – `2026.05.29.`  
+- **["Schola Europa Akadémia" Technikum, Gimnázium és Alapfokú Művészeti Iskola](https://scholaeu.hu/)** - `2024.09.01.` – `2026.05.29.`  
   **HU:** `Szoftverfejlesztő és -Tesztelő` szakon tanultam. Azóta elballagtam, és megszereztem a szakmát, ezért a repó Schola-részéhez tartozó anyagok már nem frissülnek.  
   **EN:** I studied `Software Developer and Tester` here. I have since graduated and obtained the qualification, so the Schola-related part of this repository will no longer be updated.
 
-- **[Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)** — `2025.11.14.` óta / since `2025.11.14.`  
+- **[Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)** - `2025.11.14.` óta / since `2025.11.14.`  
   **HU:** Jelenleg `Informatikai rendszer- és alkalmazás-üzemeltető technikus` szakon tanulok.  
   **EN:** I am currently studying `IT Systems and Application Operations Technician` here.
 
@@ -20,7 +20,7 @@
 
 ## Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum
 
-### 📁 Mappastruktúra és tantárgyak / Folder structure and subjects — 2025/26 1. félév / first semester
+### 📁 Mappastruktúra és tantárgyak / Folder structure and subjects - 2025/26 1. félév / first semester
 
 ```text
 /adatbazis-kezeles-I/               # Cisco Packet Tracer
@@ -78,7 +78,7 @@
 
 ---
 
-#### 👨‍🏫 Oktatók / Teachers — 2025/26 1. félév / first semester
+#### 👨‍🏫 Oktatók / Teachers - 2025/26 1. félév / first semester
 
 | Tantárgy / Subject | Tanár neve / Teacher |
 | --- | --- |
@@ -91,7 +91,7 @@
 
 ## "Schola Europa Akadémia" Technikum, Gimnázium és Alapfokú Művészeti Iskola
 
-### 📁 Mappastruktúra és tantárgyak / Folder structure and subjects — 2024/25 13. évfolyam / 13th grade
+### 📁 Mappastruktúra és tantárgyak / Folder structure and subjects - 2024/25 13. évfolyam / 13th grade
 
 ```text
 /adatbaziskezeles-I/                       # SQL lekérdezések, táblák, adatmodellek / SQL queries, tables, data models
@@ -106,7 +106,7 @@
 /webprog-II/                              # JavaScript feladatok, DOM-kezelés, JS alkalmazások / JavaScript tasks, DOM handling, JS apps
 ```
 
-### 📁 Mappastruktúra és tantárgyak / Folder structure and subjects — 2025/26 14. évfolyam / 14th grade
+### 📁 Mappastruktúra és tantárgyak / Folder structure and subjects - 2025/26 14. évfolyam / 14th grade
 
 ```text
 /adatbaziskezeles-I/                                            # SQL lekérdezések, táblák, adatmodellek / SQL queries, tables, data models
@@ -167,7 +167,7 @@ backend-programozas-es-teszteles-szoftverteszteles              # C# alapok, kis
 
 ---
 
-#### 👨‍🏫 Oktatók / Teachers — 2024/25 tanév / school year
+#### 👨‍🏫 Oktatók / Teachers - 2024/25 tanév / school year
 
 | Tantárgy / Subject | Tanár neve / Teacher |
 | --- | --- |
@@ -179,7 +179,7 @@ backend-programozas-es-teszteles-szoftverteszteles              # C# alapok, kis
 | Szakmai Angol / Technical English | Kövesdiné Lám Zsuzsánna |
 | Szoftvertesztelés / Software Testing | Kiss Zoltán |
 
-#### 👨‍🏫 Oktatók / Teachers — 2025/26 tanév / school year
+#### 👨‍🏫 Oktatók / Teachers - 2025/26 tanév / school year
 
 | Tantárgy / Subject | Tanár neve / Teacher |
 | --- | --- |
@@ -198,4 +198,4 @@ backend-programozas-es-teszteles-szoftverteszteles              # C# alapok, kis
 
 ---
 
-_Maintained by / Karbantartja: Csontos Kincső Anasztázia (doomhyena) — ["Schola Europa Akadémia" Technikum, Gimnázium és Alapfokú Művészeti Iskola](https://scholaeu.hu/) & [Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)_
+_Maintained by / Karbantartja: Csontos Kincső Anasztázia (doomhyena) - ["Schola Europa Akadémia" Technikum, Gimnázium és Alapfokú Művészeti Iskola](https://scholaeu.hu/) & [Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)_
