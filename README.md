@@ -4,8 +4,8 @@ Ez a repó a 2024/2026-ös illetve 2025/26-os szakmai évek során készült fel
 
 ## 🏫 Tanulmányaim
 
-- A ["Schola Europa Akadémia" Technikum, Gimnázium és Alapfokú Művészeti Iskola](https://scholaeu.hu/)-ban `Szoftverfejlesztő és -Tesztelő` szakon tanultam. Innen már elballagtam, és megszereztem a szakmát, ezért a repó ezen része már nem lesz frissítve.
-- Jelenleg a [Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)-ban `Informatikai rendszer- és alkalmazás-üzemeltető technikus` szakon tanulok.
+- A ["Schola Europa Akadémia" Technikum, Gimnázium és Alapfokú Művészeti Iskola](https://scholaeu.hu/) intézményben `2024.09.01.` és `2026.05.29.` között `Szoftverfejlesztő és -Tesztelő` szakon tanultam. Azóta elballagtam, és megszereztem a szakmát, ezért a repó Schola-részéhez tartozó anyagok már nem frissülnek.
+- Jelenleg a [Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/) intézményben tanulok `Informatikai rendszer- és alkalmazás-üzemeltető technikus` szakon, `2025.11.14.` óta.
 
 ---
 
@@ -32,15 +32,18 @@ ikt-projektmunka-I-prog-alapok/     # Frontend alapok & Python alapok
 
 ### 🛠️ Használt technológiák
 
-- **Programozási nyelvek:** Még nem elérhető
-- **Webfejlesztés:** Még nem elérhető
-- **Egyéb:** Még nem elérhető
+- **Programozási nyelvek:** JavaScript
+- **Webfejlesztés:** HTML, CSS
+- **Egyéb:** Cisco Packet Tracer, Markdown, TXT, XLSX, DOCX, VirtualBox, Cisco Packet Tracer
 
 ---
 
 ### ⚙️ Futtatási útmutató
 
-- Még nem elérhető
+- **Cisco Packet Tracer**: a hálózatos feladatok megnyitásához és futtatásához a `.pkt` fájlokat Cisco Packet Tracerben kell megnyitni
+- **HTML/CSS/JavaScript**: nyisd meg az `index.html` vagy más `.html` fájlokat böngészőben
+- **Markdown / TXT**: nyisd meg tetszőleges szövegszerkesztőben vagy Markdown-megjelenítőben
+- **XLSX / DOCX**: nyisd meg Microsoft Excelben / Wordben vagy kompatibilis irodai programban
 
 ---
 
