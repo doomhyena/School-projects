@@ -1,14 +1,11 @@
-# === OS fájlok ===
 .DS_Store
 Thumbs.db
 
-# === Általános IDE és szerkesztő fájlok ===
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-# === Log és cache fájlok ===
 *.log
 *.tmp
 *.cache
@@ -22,13 +19,11 @@ __pycache__/
 env/
 venv/
 
-# === C# / .NET ===
 bin/
 obj/
 *.user
 *.suo
 
-# === Java ===
 *.class
 *.jar
 *.war
@@ -36,25 +31,20 @@ obj/
 *.log
 target/
 
-# === PHP ===
 vendor/
 composer.lock
 
-# === Node/JavaScript (ha használnál npm-et is) ===
 node_modules/
 package-lock.json
 
-# === Weboldal feltöltések, ha vannak ===
 uploads/
 
-# === Személyes fájlok, jelszavak stb. (ha lenne ilyen) ===
 .env
 *.key
 *.pem
 *.sqlite
 *.db
 
-# === Unity általános ===
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -63,7 +53,6 @@ uploads/
 [Ll]ogs/
 [Mm]emoryCaptures/
 
-# === VS/JetBrains környezetek ===
 .vscode/
 .idea/
 *.csproj
@@ -71,7 +60,6 @@ uploads/
 *.user
 *.suo
 
-# === Platform-specifikus ===
 *.apk
 *.aab
 *.exe
@@ -79,7 +67,6 @@ uploads/
 *.pdb
 *.mdb
 
-# === Meta + cache ===
 *.pidb
 *.booproj
 *.svd
@@ -89,13 +76,11 @@ uploads/
 *.tmproj
 *.log
 
-# === Átmeneti fájlok, backupok ===
 *.tmp
 *.bak
 *.old
 *.orig
 
-#  === Nagyobb fájltípusok kizárása ===
 *.mp4
 *.wav
 *.ogg
@@ -103,6 +88,5 @@ uploads/
 *.tif
 *.tga
 
-# === Build output ===
 Build/
 Builds/
