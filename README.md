@@ -12,7 +12,7 @@
   **HU:** `Szoftverfejlesztő és -Tesztelő` szakon tanultam. Azóta elballagtam, és megszereztem a szakmát, ezért a repó Schola-részéhez tartozó anyagok már nem frissülnek.  
   **EN:** I studied `Software Developer and Tester` here. I have since graduated and obtained the qualification, so the Schola-related part of this repository will no longer be updated.
 
-- **[Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)** — `2025.11.14.` óta / since `2025.11.14.`  
+- **[Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)** - `2025.11.14.` óta / since `2025.11.14.`  
   **HU:** Jelenleg `Informatikai rendszer- és alkalmazás-üzemeltető technikus` szakon tanulok.  
   **EN:** I am currently studying `IT Systems and Application Operations Technician` here.
 
@@ -102,7 +102,7 @@
 ### 📁 Mappastruktúra és tantárgyak / Folder structure and subjects - 2024/25 13. évfolyam / 13th grade
 
 ```text
-/adatbaziskezeles-I/                       # SQL lekérdezések, táblák, adatmodellek / SQL queries, tables, data models
+/adatbaziskezeles-I/                      # SQL lekérdezések, táblák, adatmodellek / SQL queries, tables, data models
 /asztali-alkalmazasok-I-info-alapok-II/   # PHP projektek, űrlapkezelés, adatbázis / PHP projects, form handling, database
 /asztali-alkalmazasok-II/                 # Java alkalmazások (konzolos) / Java applications (console)
 /ikt-projektmunka-II/                     # Diagramok (pl. hálózati topológia, folyamatábrák) / Diagrams (e.g. network topology, flowcharts)
@@ -187,7 +187,7 @@ backend-programozas-es-teszteles-szoftverteszteles              # C# alapok, kis
 | Szakmai Angol / Technical English | Kövesdiné Lám Zsuzsánna |
 | Szoftvertesztelés / Software Testing | Kiss Zoltán |
 
-#### 👨‍🏫 Oktatók / Teachers - 2025/26 tanév / school year
+#### 👨‍🏫 Oktatók / Teachers — 2025/26 tanév / school year
 
 | Tantárgy / Subject | Tanár neve / Teacher |
 | --- | --- |
@@ -197,6 +197,14 @@ backend-programozas-es-teszteles-szoftverteszteles              # C# alapok, kis
 | Frontend programozás és tesztelés I. / Frontend programming and testing I | Varga József |
 | IKT projektmunka II. / ICT Project Work II | Hujber Balázs |
 | Munkavállalói Idegen Nyelv / Foreign Language for Employment | ~~Kövesdiné Lám Zsuzsánna~~ Kiss Ágnes |
+
+---
+
+## 🙏 Köszönetnyilvánítás / Acknowledgements
+
+**HU:** Külön szeretném megköszönni **Kiss Ádámnak**, **Hujber Balázsnak** és **Wuncs Dávidnak** a `Szoftverfejlesztő és -Tesztelő` szakon eltöltött elmúlt két évemet. Hálás vagyok azért a tudásért, támogatásért, türelemért és útmutatásért, amit ez idő alatt kaptam tőlük. Nagy szerepük volt abban, hogy fejlődjek szakmailag, magabiztosabbá váljak, és még nagyobb motivációval folytassam ezt az utat.
+
+**EN:** I would especially like to thank **Ádám Kiss**, **Balázs Hujber**, and **Dávid Wuncs** for the past two years in the `Software Developer and Tester` program. I am grateful for the knowledge, support, patience, and guidance I received from them during this time. They played a major role in my professional growth, in helping me become more confident, and in motivating me to continue on this path.
 
 ## 📄 Licenc / License
 
