@@ -12,9 +12,17 @@
   **HU:** `Szoftverfejlesztő és -Tesztelő` szakon tanultam. Azóta elballagtam, és megszereztem a szakmát, ezért a repó Schola-részéhez tartozó anyagok már nem frissülnek.  
   **EN:** I studied `Software Developer and Tester` here. I have since graduated and obtained the qualification, so the Schola-related part of this repository will no longer be updated.
 
-- **[Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)** - `2025.11.14.` óta / since `2025.11.14.`  
+- **[Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)** — `2025.11.14.` óta / since `2025.11.14.`  
   **HU:** Jelenleg `Informatikai rendszer- és alkalmazás-üzemeltető technikus` szakon tanulok.  
   **EN:** I am currently studying `IT Systems and Application Operations Technician` here.
+
+---
+
+## 🔄 Frissítések / Updates
+
+**HU:** Ez a repository `2025.04.06.`-tól kezdve egészen addig frissül, amíg be nem fejezem az `Informatikai rendszer- és alkalmazás-üzemeltető technikus` képzést. A képzés befejezése után a repository már nem frissül tovább, hanem nyilvános, archivált állapotba kerül, hogy a tanulmányaim lezárása után is bárki szabadon hozzáférhessen és megtekinthesse.
+
+**EN:** This repository will be updated from `2025.04.06.` until I complete the `IT Systems and Application Operations Technician` program. After the program is completed, the repository will no longer be updated and will be kept publicly archived, so that anyone can freely access and view it even after my studies have ended.
 
 ---
 
