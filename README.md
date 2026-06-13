@@ -2,6 +2,11 @@
 
 Ez a repó a 2024/2026-ös illetve 2025/26-os szakmai évek során készült feladatokat, beadandókat és jegyzeteket tartalmazza. A fájlok tantárgyak szerint vannak rendszerezve, és különböző programozási nyelveket, technológiákat használunk. Illetve a 2025/26-s szakmai év
 
+## 🏫 Tanulmányaim
+
+- A ["Schola Europa Akadémia" Technikum, Gimnázium és Alapfokú Művészeti Iskola](https://scholaeu.hu/)-ban `Szoftverfejlesztő és -Tesztelő` szakon tanultam. Innen már elballagtam, és megszereztem a szakmát, ezért a repó ezen része már nem lesz frissítve.
+- Jelenleg a [Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum](https://blathy.info/)-ban `Informatikai rendszer- és alkalmazás-üzemeltető technikus` szakon tanulok.
+
 ---
 
 ## Budapesti Műszaki SZC Bláthy Ottó Titusz Informatikai Technikum
