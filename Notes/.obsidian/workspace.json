@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "81e331b87b7cb60c",
+        "id": "410447c5d5d1a4d7",
         "type": "tabs",
         "children": [
           {
-            "id": "aa739d7dec4a158f",
+            "id": "24ba0c2c1795f353",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vocational Training/Bláthy/prog-alapok/03.Véletlen események és listák.md",
+                "file": "Homepage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03.Véletlen események és listák"
+              "title": "Homepage"
+            }
+          },
+          {
+            "id": "a0ab2693bd675e37",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Gráf nézet"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,43 +223,42 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "cd09bfc6eda7bc1a",
+  "active": "a0ab2693bd675e37",
   "lastOpenFiles": [
+    "Homepage.md",
+    "Bláthy/Link/Hálózat programozása és IoT.md",
+    "Homepage.md.tmp.23556.d2043248ae41",
+    "Bláthy/Bláthy rendszergazda.md",
+    "Bláthy/Bláthy rendszergazda.md.tmp.23556.41f301f43965",
+    "Bláthy/Link/Hálózatok I..md",
+    "Bláthy/Link",
+    "Schola/Schola Szoftver.md",
+    "Schola/Schola Szoftver.md.tmp.23556.6471c76a3576",
+    "Schola/13/Link/Csharp.md.tmp.23556.307827b1748d",
+    "Schola/13/Link/Java.md.tmp.23556.8a6cead1fd0a",
+    "Schola/13/Link/Python.md.tmp.23556.3ab424c5a606",
+    "Schola/14/Adatbázis II..md",
+    "Schola/14/Asztali és mobil alkalmazások fejlesztése és tesztelése.md",
+    "Schola/14/IKT II..md",
+    "Schola/14/Munkavállalói Idegennyelv.md",
+    "Schola/14/Szakmai Angol.md",
+    "Schola/13/Programming/Dávid (A nem dollárbaloldali Dávid dolgozata).md",
+    "Schola/13/Programming/Python/04.For ciklus, input, listak - Python.md",
+    "Schola/13/Programming/Python/02.Alapok - Python.md",
+    "Schola/13/Programming/Python/01.Alapok - Python.md",
+    "Schola/13/Link/Python.md",
+    "Schola/13/Link/MySQL.md",
+    "Schola/13/Link/Java.md",
+    "Schola/13/Link/IKT.md",
+    "Schola/13/Link/Frontend.md",
+    "Schola/13/Link/Csharp.md",
+    "Schola/13/Link/Backend.md",
+    "Schola/13/IKT/Probavizsga Valaszsor.md",
+    "Schola/13/IKT/Probavizsga Kerdessor.md",
+    "Schola/13/IKT/Csoportos Projektmunka.md",
+    "Schola/13/IKT/CodeMaster Academy.md",
     "Math",
-    "Vocational Training/Bláthy/prog-alapok/02.Python alapok II..md",
-    "Vocational Training/Bláthy/prog-alapok/01.Python alapok I..md",
-    "Vocational Training/Bláthy/halozatok-I/02. mi rák ez a feladat xdd.md",
-    "Vocational Training/Bláthy/halozatok-I/01.Ágazati alapvizsga megoldása.md",
-    "Vocational Training/Bláthy/halozatok-I/01.Modul/1.1.1 Hálózatok kötnek minket össze.md",
-    "Vocational Training/Bláthy/halozatok-I/01.Modul",
-    "School/Vocational Training/Schola/14/Szakmai Angol/10.Lesson name.md",
-    "School/Vocational Training/Schola/14/Szakmai Angol.md",
-    "School/Vocational Training/Schola/14/Adatbázis II..md",
-    "School/Vocational Training/Schola/14/Szakmai Angol/09.Rendszergazda interjú.md",
-    "School/Vocational Training/Schola/14/Szakmai Angol/07.Dolgozat - 29.09.2025.md",
-    "School/Vocational Training/Schola/14/Szakmai Angol/03.Keretrendszerek.md",
-    "School/Vocational Training/Schola/14/Szakmai Angol/06.Internet.md",
-    "School/Vocational Training/Schola/14/Szakmai Angol/05.RestApi.md",
-    "School/Vocational Training/Schola/14/Szakmai Angol/05.How to report a bug.md",
-    "School/Vocational Training/Schola/14/Szakmai Angol/04.Algoritmusok.md",
-    "School/Vocational Training/Schola/14/Szakmai Angol/02.Tesztelés - 15.09.2025.md",
-    "School/Vocational Training/Bláthy/szakmai-angol/IT TASK 1.md",
-    "School/Vocational Training/Bláthy/szakmai-angol/IT TASK 2.md",
-    "School/Vocational Training/Bláthy/szakmai-angol/IT TASK 4.md",
-    "School/Vocational Training/Bláthy/szakmai-angol/IT TASK 3.md",
-    "Personal/Diary/2026.md",
-    "School/Vocational Training/Bláthy/szakmai-angol",
-    "Personal/Diary/Diary.md",
-    "Personal/Diary/2026/2026-04-21.md",
-    "Personal/Diary/2026/2026-04-22.md",
-    "Personal/Diary/2026/2026-04-20.md",
-    "Projects/Last Bell 14.A",
-    "Projects",
-    "Personal",
-    "School",
-    "Templates",
-    "Personal/Diary/2026",
-    "Personal/Diary/2024",
-    "Personal/Diary/2023"
+    "Bláthy/halozatok-I/01.Modul",
+    "School/Vocational Training/Bláthy/szakmai-angol"
   ]
 }

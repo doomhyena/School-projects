@@ -1,6 +1,0 @@
-[[01.OOP - 08.09.2025]]
-[[02.Tesztelés - 15.09.2025]]
-[[07.Dolgozat - 29.09.2025]]
-[[09.Rendszergazda interjú]]
-[[05.How to report a bug]]
-[[10.Lesson name]]

@@ -1,8 +1,0 @@
-[[01.Első éves anyag - Wuncs Dávid órái]]
-[[02.2025-es vizsgafeladat megoldása - 11.09.2025]]
-[[03.Random dolgok Dávidtól 18.09.2025]]
-[[04.2023-as vizsgafeladat megoldása 18.09.2025]]
-[[05.Grafikus programozás (Swing)]]
-[[06.Fájlbeolvasás, listához hozzáadás törlés grafikus]]
-[[07.Nem legális puska]]
-[[08.Java próbavizsga]]
