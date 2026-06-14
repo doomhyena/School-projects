@@ -13,7 +13,7 @@ A tantárgy az ágazati alapvizsga feladatain keresztül práktikus hálózati i
 2. [[02. mi rák ez a feladat xdd]]
 
 ### 01. Modul
-1. [[1.1.1 Hálózatok kötnek minket össze]]
+1.[[1.2.1 Állomások]]]
 
 ## Kapcsolódó tantárgyak
 

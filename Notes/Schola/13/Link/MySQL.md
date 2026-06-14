@@ -1,4 +1,4 @@
-﻿# 🗄️ MySQL
+# 🗄️ MySQL
 
 A MySQL tárgy a Schola Szoftverfejlesztő képzésen a relációs adatbázis-kezelést és az SQL lekérdező nyelvet tanítja. Az órákat Ádám tartotta.
 
@@ -23,9 +23,9 @@ Az SQL lekérdezések alapjaitól (SELECT, FROM, WHERE) haladsz az összetettebb
 
 ## Kapcsolódó tantárgyak
 
-* [[Backend]] — A PHP a MySQL-t használja adattárolásra
-* [[03.Rest API alapok]] — REST API-kon keresztül érik el az adatbázist
-* [[Adatbázis II.]] — A 14-es évfolyamon mélyebb adatbázis-ismeretek
+* [[Backend]] - A PHP a MySQL-t használja adattárolásra
+* [[03.Rest API alapok]] - REST API-kon keresztül érik el az adatbázist
+* [[Adatbázis II.]] - A 14-es évfolyamon mélyebb adatbázis-ismeretek
 
 ## Ajánlott tanulási útvonal
 

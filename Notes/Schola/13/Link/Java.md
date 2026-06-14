@@ -27,10 +27,10 @@ Az osztályok, objektumok, öröklés és metódusok alapjaitól indulva haladsz
 
 ## Kapcsolódó tantárgyak
 
-* [[Python]] — Hasonló imperatív programozási elvek, más szintaxissal
-* [[Csharp]] — Java-hoz nagyon hasonló, Microsoft-alapú nyelv
-* [[Asztali és mobil alkalmazások fejlesztése és tesztelése]] — Java Swing GUI programozás
-
+* [[Python]] - Hasonló imperatív programozási elvek, más szintaxissal
+* [[Csharp]] - Java-hoz nagyon hasonló, Microsoft-alapú nyelv
+* [[Asztali és mobil alkalmazások fejlesztése és tesztelése]] - Java Swing GUI programozás
+* [[Dávid (A nem dollárbaloldali Dávid dolgozata)]] - Dávid dolgozata
 ## Ajánlott tanulási útvonal
 
 Kezdj az alapokkal (01–02), majd az osztályok és metódusok témájával (03–06). A Dávid-féle anyag párhuzamosan vagy utána is feldolgozható — más nézőpontot ad ugyanarra az anyagra.
