@@ -90,12 +90,11 @@
 
 | Tantárgy / Subject | Tanár neve / Teacher |
 | --- | --- |
-| Munkavállalói ismeretek, Szakmai Angol / Employment studies, Technical English | Sándor Péter |
-| Munkavállalói idegen nyelv / Foreign language for employment | - |
+| Munkavállalói idegen nyelv, Munkavállalói ismeretek, Szakmai Angol/ Foreign language for employment, Employment studies, Technical English | Sándor Péter |
 | Informatikai és távközlési alapok I. / IT and telecommunications basics I | Virág Ádám |
 | Informatikai és távközlési alapok II., Hálózatok I., Adatbázis-kezelés I., IKT projektmunka II., Hálózatok II. / IT and telecommunications basics II, Networks I, Database Management I, ICT Project Work II, Networks II | Krucsay Attila |
 | Programozási alapok, IKT projektmunka I., Szerverek és felhőszolgáltatások / Programming fundamentals, ICT Project Work I, Servers and cloud services | Duffka Erik Martin |
-| Hálózat programozása és IoT / Network programming and IoT | - |
+| Hálózat programozása és IoT / Network programming and IoT | Zaletnyik Péter Tibor |
 
 ## "Schola Europa Akadémia" Technikum, Gimnázium és Alapfokú Művészeti Iskola
 

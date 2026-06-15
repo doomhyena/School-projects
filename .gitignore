@@ -12,7 +12,6 @@ Thumbs.db
 *.cache
 *.bak
 
-# === Python ===
 __pycache__/
 *.pyc
 *.pyo
