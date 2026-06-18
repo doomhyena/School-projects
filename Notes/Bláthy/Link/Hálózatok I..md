@@ -1,4 +1,4 @@
-﻿# 🌐 Hálózatok I.
+# 🌐 Hálózatok I.
 
 A Hálózatok I. tantárgy a Bláthy Ottó Villamosipari Technikumban a hálózati alapismereteket fedi le, beleértve az ágazati alapvizsga felkészítést és a hálózatok elméleti alapjait.
 
@@ -11,9 +11,6 @@ A tantárgy az ágazati alapvizsga feladatain keresztül práktikus hálózati i
 ### Főanyag
 1. [[01.Ágazati alapvizsga megoldása]]
 2. [[02. mi rák ez a feladat xdd]]
-
-### 01. Modul
-1.[[1.2.1 Állomások]]]
 
 ## Kapcsolódó tantárgyak
 
