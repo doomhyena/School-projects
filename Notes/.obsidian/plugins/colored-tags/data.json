@@ -868,7 +868,22 @@
     "show-ipv6-dhcp-binding": 856,
     "ipv6-dhcp-relay": 857,
     "közvetítő": 858,
-    "show-ipv6-dhcp-interface": 859
+    "show-ipv6-dhcp-interface": 859,
+    "01-modul": 860,
+    "alapfogalmak": 861,
+    "modul-index": 862,
+    "hálózatok-II": 863,
+    "02-modul": 864,
+    "állomás": 865,
+    "szekció-index": 866,
+    "hálózattípusok": 867,
+    "optika": 868,
+    "konvergált-hálózat": 869,
+    "hálózati-trendek": 870,
+    "DoS": 871,
+    "alapbeállítások": 872,
+    "rész-index": 873,
+    "MAC-tábla": 874
   },
   "_version": 3
 }

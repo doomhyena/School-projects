@@ -15,7 +15,11 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ## 01. Modul – Hálózati alapfogalmak
 
+> **Modul index:** [[01.Modul|01. Modul – áttekintő és navigáció]]
+
 ### 1.2 A hálózatok részei
+
+> [[1.2 A hálózatok részei|1.2 – Szekció index]]
 
 - [[1.2.1 Állomások]]
 - [[1.2.2 Egyenrangú hálózatok (Peer-to-Peer)]]
@@ -24,10 +28,14 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 1.3 A hálózatok megjelenítése és a topológiák
 
+> [[1.3 A hálózatok megjelenítése és a topológiák|1.3 – Szekció index]]
+
 - [[1.3.1 Megjelenítés]]
 - [[1.3.2 Topológiai ábrák]]
 
 ### 1.4 Gyakori hálózattípusok
+
+> [[1.4 Gyakori hálózattípusok|1.4 – Szekció index]]
 
 - [[1.4.1 Különböző méretű hálózatok]]
 - [[1.4.2 LAN-ok és WAN-ok]]
@@ -36,11 +44,15 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 1.5 Internetkapcsolat
 
+> [[1.5 Internetkapcsolat|1.5 – Szekció index]]
+
 - [[1.5.1 Csatlakozási technológiák]]
 - [[1.5.2-1.5.3 Kapcsolattípusok]]
 - [[1.5.4 Konvergált hálózatok]]
 
 ### 1.6 Megbízható hálózatok
+
+> [[1.6 Megbízható hálózatok|1.6 – Szekció index]]
 
 - [[1.6.2 Hibatűrés]]
 - [[1.6.3 Skálázhatóság]]
@@ -49,11 +61,15 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 1.7 Hálózati trendek
 
+> [[1.7 Hálózati trendek|1.7 – Szekció index]]
+
 - [[1.7.1-1.7.5 Mai trendek]]
 - [[1.7.6 Felhőalapú szolgáltatások]]
 - [[1.7.7-1.7.9 Otthoni technológiák]]
 
 ### 1.8 Hálózatbiztonság
+
+> [[1.8 Hálózatbiztonság|1.8 – Szekció index]]
 
 - [[1.8.1 Fenyegetések]]
 - [[1.8.2 Megoldások]]
@@ -62,9 +78,15 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ## 02. Modul – Kapcsolás, VLAN-ok és hálózati protokollok
 
+> **Modul index:** [[02.Modul|02. Modul – áttekintő és navigáció]]
+
 ### 1. rész – Switch és router alapbeállítások
 
+> **Rész index:** [[01.rész|1. rész – Switch és router alapbeállítások]]
+
 #### 1.1 A switch alapbeállításainak megadása
+
+> [[1.1 A switch alapbeállításainak megadása|1.1 – Szekció index]]
 
 - [[1.1.1 A switch rendszerindítási sorrendje]]
 - [[1.1.2 A boot system parancs]]
@@ -74,6 +96,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[1.1.6 Példa a switch virtuális interfészének (SVI) beállítására]]
 
 #### 1.2 Switchportok konfigurációja
+
+> [[1.2 Switchportok konfigurációja|1.2 – Szekció index]]
 
 - [[1.2.1 Duplex kommunikáció]]
 - [[1.2.2 Switchportok beállítása a fizikai rétegben]]
@@ -86,6 +110,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 #### 1.3 Secure Remote Access
 
+> [[1.3 Secure Remote Access|1.3 – Szekció index]]
+
 - [[1.3.1 A Telnet működése]]
 - [[1.3.2 Az SSH működése]]
 - [[1.3.3 A switch SSH-támogatottságának ellenőrzése]]
@@ -93,6 +119,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[1.3.5 Az SSH működésének ellenőrzése]]
 
 #### 1.4 A router alapbeállításainak megadása
+
+> [[1.4 A router alapbeállításainak megadása|1.4 – Szekció index]]
 
 - [[1.4.1 A router alapvető beállításainak megadása]]
 - [[1.4.2 Parancsszimulátor - A router alapvető beállításainak megadása]]
@@ -102,6 +130,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[1.4.6 IPv4-es loopback interfészek]]
 
 #### 1.5 Közvetlenül csatlakozó hálózatok ellenőrzése
+
+> [[1.5 Közvetlenül csatlakozó hálózatok ellenőrzése|1.5 – Szekció index]]
 
 - [[1.5.1 Interfészellenőrző parancsok]]
 - [[1.5.2 Az interfész állapotának ellenőrzése]]
@@ -117,7 +147,11 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 2. rész – Frame Forwarding és szórási tartományok
 
+> **Rész index:** [[02.rész|2. rész – Frame Forwarding és szórási tartományok]]
+
 #### 2.1 Frame Forwarding
+
+> [[2.1 Frame Forwarding|2.1 – Szekció index]]
 
 - [[2.1.1 Hálózati kapcsolás]]
 - [[2.1.2 A switch MAC-címtáblája]]
@@ -128,6 +162,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 #### 2.2 Collision and Broadcast Domains
 
+> [[2.2 Collision and Broadcast Domains|2.2 – Szekció index]]
+
 - [[2.2.1 Ütközési tartományok]]
 - [[2.2.2 Szórási tartományok]]
 - [[2.2.3 Hálózati túlterhelés enyhítése]]
@@ -136,13 +172,19 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 3. rész – VLAN-ok konfigurálása
 
+> **Rész index:** [[03.rész|3. rész – VLAN-ok konfigurálása]]
+
 #### 3.1 Overview of VLANs
+
+> [[3.1 Overview of VLANs|3.1 – Szekció index]]
 
 - [[3.1.1 VLAN definíciók]]
 - [[3.1.2 A VLAN kialakításának előnyei]]
 - [[3.1.3 VLAN típusok]]
 
 #### 3.2 VLAN-ok több switch-et tartalmazó környezetben
+
+> [[3.2 VLAN-ok több switch-et tartalmazó környezetben|3.2 – Szekció index]]
 
 - [[3.2.1 VLAN-trönkök meghatározása]]
 - [[3.2.2 VLAN-ok nélküli hálózat]]
@@ -153,6 +195,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[3.2.7 Példa a hang VLAN ellenőrzésére]]
 
 #### 3.3 VLAN Configuration
+
+> [[3.3 VLAN Configuration|3.3 – Szekció index]]
 
 - [[3.3.1 VLAN-tartományok a Catalyst switch-eken]]
 - [[3.3.2 VLAN létrehozási parancsok]]
@@ -168,12 +212,16 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 #### 3.4 VLAN-trönkök
 
+> [[3.4 VLAN-trönkök|3.4 – Szekció index]]
+
 - [[3.4.1 Trönkkonfigurációs parancsok]]
 - [[3.4.2 Trönkkonfigurációs példa]]
 - [[3.4.3 Trönkbeállítások ellenőrzése]]
 - [[3.4.4 A trönk visszaállítása alapértelmezett állapotra]]
 
 #### 3.5 Dynamic Trunking Protocol
+
+> [[3.5 Dynamic Trunking Protocol|3.5 – Szekció index]]
 
 - [[3.5.1 A DTP bemutatása]]
 - [[3.5.2 Egyeztetett interfészmódok]]
@@ -184,7 +232,11 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 4. rész – VLAN-ok közötti forgalomirányítás
 
+> **Rész index:** [[04.rész|4. rész – VLAN-ok közötti forgalomirányítás]]
+
 #### 4.1 A VLAN-ok közötti forgalomirányítás alapjai
+
+> [[4.1 A VLAN-ok közötti forgalomirányítás működéseű|4.1 – Szekció index]]
 
 - [[4.1.1 Mit értünk VLAN-ok közötti forgalomirányításon]]
 - [[4.1.2 A VLAN-ok közti forgalomirányítás hagyományos módja]]
@@ -192,6 +244,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[4.1.4 VLAN-ok közötti forgalomirányítás 3. rétegbeli switch-en]]
 
 #### 4.2 VLAN-ok közötti forgalomirányítás router-on-a-stick módszerrel
+
+> [[4.2 VLAN-ok közötti forgalomirányítás router-on-a-stick módszerrel|4.2 – Szekció index]]
 
 - [[4.2.1 Router-on-a-stick eset]]
 - [[4.2.2 Az S1 VLAN- és trönkkonfigurációja]]
@@ -202,6 +256,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 #### 4.3 VLAN-ok közötti forgalomirányítás 3. rétegbeli switch-en
 
+> [[4.3 VLAN-ok közötti forgalomirányítás 3. rétegbeli switch-ek használatával|4.3 – Szekció index]]
+
 - [[4.3.1 VLAN-ok közötti forgalomirányítás egy 3. rétegbeli switch-en]]
 - [[4.3.2 A 3. rétegbeli switch esete]]
 - [[4.3.3 A 3. rétegbeli switch konfigurációja]]
@@ -211,6 +267,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[4.3.7 Forgalomirányítás konfigurálása 3. rétegbeli switch-en]]
 
 #### 4.4 VLAN-ok közötti forgalomirányítás hibaelhárítása
+
+> [[4.4 VLAN-ok közötti forgalomirányítás hibaelhárítása|4.4 – Szekció index]]
 
 - [[4.4.1 A VLAN-ok közötti forgalomirányítás gyakori problémái]]
 - [[4.4.2 A VLAN-ok közötti forgalomirányítás hibaelhárításának esete]]
@@ -223,7 +281,11 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 5. rész – Spanning Tree Protocol (STP)
 
+> **Rész index:** [[05.rész|5. rész – Spanning Tree Protocol (STP)]]
+
 #### 5.1 Az STP célja
+
+> [[5.1 Az STP célja|5.1 – Szekció index]]
 
 - [[5.1.1 Redundancia a 2. rétegbeli kapcsolt hálózatokban]]
 - [[5.1.2 Feszítőfa-protokoll (Spanning Tree Protocol)]]
@@ -234,6 +296,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[5.1.7 A feszítőfa-algoritmus (STA)]]
 
 #### 5.2 Az STP működése
+
+> [[5.2 Az STP működése|5.2 – Szekció index]]
 
 - [[5.2.1 A hurokmentes topológia létrehozásának lépései]]
 - [[5.2.2 1. A gyökérponti híd kiválasztása]]
@@ -249,6 +313,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 #### 5.3 Az STP fejlődése
 
+> [[5.3 Az STP fejlődése|5.3 – Szekció index]]
+
 - [[5.3.1 Az STP különböző változatai]]
 - [[5.3.2 Az RSTP alapjai]]
 - [[5.3.3 RSTP portállapotok és portszerepkörök]]
@@ -259,7 +325,11 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 6. rész – EtherChannel
 
+> **Rész index:** [[06.rész|6. rész – EtherChannel]]
+
 #### 6.1 EtherChannel Operation
+
+> [[6.1 EtherChannel Operation|6.1 – Szekció index]]
 
 - [[6.1.1 Portok összefogása (Link Aggregation)]]
 - [[6.1.2 EtherChannel]]
@@ -273,11 +343,15 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 #### 6.2 Az EtherChannel konfigurálása
 
+> [[6.2 Az EtherChannel konfigurálása|6.2 – Szekció index]]
+
 - [[6.2.1 Konfigurálási útmutató]]
 - [[6.2.2 LACP konfigurációs példa]]
 - [[6.2.3 Parancsszimulátor - Az EtherChannel konfigurálása]]
 
 #### 6.3 Az EtherChannel ellenőrzése és hibajavítása
+
+> [[6.3 Az EtherChannel ellenőrzése és hibajavítása|6.3 – Szekció index]]
 
 - [[6.3.1 Az EtherChannel ellenőrzése]]
 - [[6.3.2 Gyakori problémák az EtherChannel konfigurációjával]]
@@ -287,7 +361,11 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 7. rész – DHCPv4
 
+> **Rész index:** [[07.rész|7. rész – DHCPv4]]
+
 #### 7.1 DHCPv4 alapfogalmak
+
+> [[7.1 DHCPv4 alapfogalmak|7.1 – Szekció index]]
 
 - [[7.1.1 DHCPv4-kiszolgáló és ügyfél]]
 - [[7.1.2 A DHCPv4 működése]]
@@ -295,6 +373,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[7.1.4 A bérlet megújítása]]
 
 #### 7.2 Cisco IOS DHCPv4-kiszolgáló konfigurálása
+
+> [[7.2 Cisco IOS DHCPv4-kiszolgáló konfigurálása|7.2 – Szekció index]]
 
 - [[7.2.1 Cisco IOS DHCPv4-kiszolgáló]]
 - [[7.2.2 A Cisco IOS DHCPv4 kiszolgáló konfigurálásának lépései]]
@@ -308,6 +388,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 #### 7.3 DHCPv4-ügyfél konfigurálása
 
+> [[7.3 DHCPv4-ügyfél konfigurálása|7.3 – Szekció index]]
+
 - [[7.3.1 A Cisco Router, mint DHCPv4-kliens]]
 - [[7.3.2 Konfigurációs példa]]
 - [[7.3.3 Otthoni router DHCPv4-kliensként]]
@@ -317,7 +399,11 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 ### 8. rész – DHCPv6 és IPv6 automatikus cím-hozzárendelés
 
+> **Rész index:** [[08.rész|8. rész – DHCPv6 és IPv6 automatikus cím-hozzárendelés]]
+
 #### 8.1 IPv6 GUA hozzárendelés
+
+> [[8.1 IPv6 GUA hozzárendelés|8.1 – Szekció index]]
 
 - [[8.1.1 IPv6 állomás konfiguráció]]
 - [[8.1.2 IPv6 állomás link-local cím]]
@@ -325,6 +411,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[8.1.4 Az RA üzenetek három jelzőbitje]]
 
 #### 8.2 SLAAC
+
+> [[8.2 SLAAC|8.2 – Szekció index]]
 
 - [[8.2.1 A SLAAC áttekintése]]
 - [[8.2.2 A SLAAC engedélyezése]]
@@ -335,6 +423,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 
 #### 8.3 DHCPv6
 
+> [[8.3 DHCPv6|8.3 – Szekció index]]
+
 - [[8.3.1 A DHCPv6 működésének lépései]]
 - [[8.3.2 Az állapotmentes DHCPv6 működése]]
 - [[8.3.3 Állapotmentes DHCPv6 engedélyezése egy interfészen]]
@@ -342,6 +432,8 @@ Az **01. Modul** az alapvető hálózati fogalmakat ismétli át (hálózati esz
 - [[8.3.5 Állapottartó DHCPv6 engedélyezése interfészen]]
 
 #### 8.4 DHCPv6-kiszolgáló konfigurálása
+
+> [[8.4 DHCPv6-kiszolgáló konfigurálása|8.4 – Szekció index]]
 
 - [[8.4.1 DHCPv6 router szerepek]]
 - [[8.4.2 Állapotmentes DHCPv6-szerver konfigurálása]]
