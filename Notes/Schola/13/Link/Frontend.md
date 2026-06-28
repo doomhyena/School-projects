@@ -48,9 +48,13 @@ A HTML struktúrától és CSS stílusoktól indulva haladsz a reszponzív dizá
 
 ## Kapcsolódó tantárgyak
 
+**Schola:**
 * [[Backend]] — A frontend és backend összekapcsolódik a teljes webfejlesztésben
 * [[04.Bootstrap 5 Részletesjegyzet és komponensmagyarázat]] — Haladó Bootstrap anyag a 14-es évfolyamon
 * [[MySQL]] — Az adatok, amelyeket a frontend megjelenít
+
+**Bláthy (rendszergazdák):**
+* [[IKT Projektmunka I.]] — HTML, CSS, Git/GitHub alapjai rendszergazda képzésen
 
 ## Ajánlott tanulási útvonal
 

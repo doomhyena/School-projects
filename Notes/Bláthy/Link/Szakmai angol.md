@@ -15,7 +15,12 @@ A tantárgy négy IT TASK feladaton keresztül fejleszti az angol szakmai szóki
 
 ## Kapcsolódó tantárgyak
 
-* [[IKT Projektmunka I.]] — A webfejlesztési anyag sok angol terminológiát tartalmaz[[Bláthy/Link/Szakmai angol]]]]] — Schola iskolai szakmai angol (14. évfolyam)
+**Bláthy:**
+* [[IKT Projektmunka I.]] — A webfejlesztési anyag sok angol terminológiát tartalmaz
+
+**Schola (fejlesztők):**
+* [[Szakmai Angol]] — Schola 14-es szakmai angol (OOP, tesztelés, REST API, algoritmusok)
+* [[Munkavállalói Idegennyelv]] — Schola 14-es általános angol és érettségi felkészítő
 
 ## Ajánlott tanulási útvonal
 

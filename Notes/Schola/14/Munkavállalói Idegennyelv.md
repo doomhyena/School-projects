@@ -14,9 +14,12 @@ Emelt szintű érettségi feladatoktól (Use of English, nyelvhelyesség) a szó
 
 ## Kapcsolódó tantárgyak
 
-*[[Schola/14/Szakmai Angol]]] — A szakspecifikus angol anyag
-* [[IT TASK 1]] — Bláthy szakmai angol feladatok
-* [[IT TASK 2]] — Bláthy szakmai angol feladatok
+**Schola:**
+* [[Szakmai Angol]] — A szakspecifikus angol anyag (OOP, tesztelés, REST API)
+
+**Bláthy (rendszergazdák):**
+* [[Szakmai angol]] — Bláthy-s IT TASK feladatok angol szaknyelven
+* [[Munkavállalói Ismeretek]] — Bláthy-s munkajogi és munkavállalói ismeretek
 
 ## Ajánlott tanulási útvonal
 

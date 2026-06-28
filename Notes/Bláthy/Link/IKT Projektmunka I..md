@@ -18,8 +18,13 @@ A tantárgy az első leckével a fejlesztői eszközökkel (VS Code, Windows par
 
 ## Kapcsolódó tantárgyak
 
-* [[Programozási Alapok]] — Python programozás, amely kiegészíti a webfejlesztést[[Bláthy/Link/Szakmai angol]]]]] — Az IT angol terminológia itt is hasznos
-* [[Frontend]] — Schola iskolai mélyebb Frontend-anyag (CSS, JS, Bootstrap)
+**Bláthy:**
+* [[Programozási Alapok]] — Python programozás, amely kiegészíti a webfejlesztést
+* [[Szakmai angol]] — Az IT angol terminológia itt is hasznos
+
+**Schola (fejlesztők):**
+* [[Frontend]] — Mélyebb Frontend-anyag (CSS haladó, JavaScript, Bootstrap)
+* [[IKT]] — Schola IKT: versenyfelkészítés, csapatmunka, projektmunka
 
 ## Ajánlott tanulási útvonal
 

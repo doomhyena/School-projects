@@ -21,9 +21,12 @@ Az OOP és tesztelési terminológiától a keretrendszerek, algoritmusok, REST 
 
 ## Kapcsolódó tantárgyak
 
-*[[Schola/14/Szakmai Angol]]] — A Bláthy-s szakmai angol anyag
-* [[Munkavállalói Idegennyelv]] — Általánosabb angol kompetenciák
+**Schola:**
+* [[Munkavállalói Idegennyelv]] — Általánosabb angol és érettségi felkészítő
 * [[03.Rest API alapok]] — A REST API téma technikai oldala
+
+**Bláthy (rendszergazdák):**
+* [[Szakmai angol]] — Bláthy-s IT szaknyelv (IT TASK feladatok, hálózati terminológia)
 
 ## Ajánlott tanulási útvonal
 

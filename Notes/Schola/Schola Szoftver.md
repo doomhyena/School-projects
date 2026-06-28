@@ -51,3 +51,11 @@ A **Szoftverfejlesztő és -tesztelő** szakma napjaink egyik legégetőbb munka
 
 - [[Probavizsga Kerdessor]] — kérdések
 - [[Probavizsga Valaszsor]] — válaszok
+
+---
+
+## Kapcsolódó iskola
+
+- [[Bláthy rendszergazda]] — A Bláthy Ottó Titusz Informatikai Technikum rendszergazda szakiránya
+
+Az átfedő témák: Python programozás, frontend alapok (HTML/CSS), szakmai angol, munkavállalói ismeretek.
