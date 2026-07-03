@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Smart Lamp",
+        "type": "actuator",
+        "room": "living_room",
+        "status": "off"
+    },
+    {
+        "id": 2,
+        "name": "Motion Detector",
+        "type": "sensor",
+        "room": "hall",
+        "status": "inactive"
+    },
+    {
+        "id": 3,
+        "name": "Smart Door",
+        "type": "actuator",
+        "room": "entrance",
+        "status": "locked"
+    },
+    {
+        "id": 4,
+        "name": "Temperature Meter",
+        "type": "sensor",
+        "room": "bedroom",
+        "value": 22.5
+    },
+    {
+        "id": 5,
+        "name": "Smart Fan",
+        "type": "actuator",
+        "room": "bed_room",
+        "status": "off"
+    },
+    {
+        "id": 6,
+        "name": "Smart Scarecrow",
+        "type": "actuator",
+        "room": "garden",
+        "status": "off"
+    }
+]
