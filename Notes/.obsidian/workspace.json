@@ -16,8 +16,23 @@
               "icon": "hearth-crystal",
               "title": "Home"
             }
+          },
+          {
+            "id": "1bd87fd34a525907",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bláthy/halozatok-programozasa-es-iot/asd.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "asd"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,8 +224,10 @@
       "hearth:Open Hearth home": false
     }
   },
-  "active": "f726b8bd708df3dc",
+  "active": "1bd87fd34a525907",
   "lastOpenFiles": [
+    "Bláthy/halozatok-programozasa-es-iot/asd.md",
+    "Bláthy/halozatok-programozasa-es-iot",
     "Bláthy/Link/Hálózat programozása és IoT.md.tmp.12972.a78ab2be91a0",
     "Bláthy/Link/Munkavállalói Ismeretek.md.tmp.12972.a6fb41467632",
     "Schola/13/Link/Frontend.md.tmp.12972.efab90be8605",
@@ -220,8 +237,6 @@
     "Bláthy/Link/Szakmai angol.md.tmp.12972.45b97de751f5",
     "Bláthy/Link/IKT Projektmunka I..md.tmp.12972.3bb16e53b350",
     "Bláthy/Link/Hálózatok II..md.tmp.12972.088e4c80a9aa",
-    "Bláthy/Link/Hálózatok II..md.tmp.12972.963dc57cf9e8",
-    "Bláthy/Link/Hálózatok II..md.tmp.12972.4c22e70aa310",
     "Bláthy/halozatok-II/02.Modul/08..rész/8.4 DHCPv6-kiszolgáló konfigurálása/8.4 DHCPv6-kiszolgáló konfigurálása.md",
     "Bláthy/halozatok-II/02.Modul/08..rész/8.3 DHCPv6/8.3 DHCPv6.md",
     "Bláthy/halozatok-II/02.Modul/08..rész/8.2 SLAAC/8.2 SLAAC.md",

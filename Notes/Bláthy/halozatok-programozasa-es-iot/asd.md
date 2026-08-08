@@ -1,0 +1,1 @@
+15.-én dolgozat abból amit 8.-án vettünk
