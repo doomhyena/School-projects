@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "366e9db89f0681be",
+            "id": "f726b8bd708df3dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "hearth-home-view",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Gráf nézet"
+              "icon": "hearth-crystal",
+              "title": "Home"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Fájlkezelő"
+              "title": "Files"
             }
           },
           {
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bbf6e69959fe4876",
@@ -191,25 +190,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "bases:Create new base": false,
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
-      "markdown-importer:Formátum-konvertáló megnyitása": false,
-      "zk-prefixer:Új egyedi jegyzet létrehozása": false,
-      "random-note:Véletlenszerű jegyzet megnyitása": false,
-      "audio-recorder:Hangfelvétel indítása/leállítása": false,
-      "workspaces:Munkaterület-elrendezések kezelése": false,
-      "publish:Változtatások publikálása...": false,
-      "switcher:Gyors váltó megnyitása": false,
-      "canvas:Új vászon létrehozása": false,
-      "daily-notes:Mai jegyzet megnyitása": false,
-      "templates:Sablon beszúrása": false,
-      "command-palette:Parancspaletta megnyitása": false,
-      "bases:Új bázis létrehozása": false,
-      "graph:Gráf nézet megnyitása": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "hearth:Open Hearth home": false
     }
   },
-  "active": "366e9db89f0681be",
+  "active": "f726b8bd708df3dc",
   "lastOpenFiles": [
     "Bláthy/Link/Hálózat programozása és IoT.md.tmp.12972.a78ab2be91a0",
     "Bláthy/Link/Munkavállalói Ismeretek.md.tmp.12972.a6fb41467632",
