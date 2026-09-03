@@ -1,0 +1,66 @@
+Vlan 1  -            - g0/1.1  -172.31.58.0 255.255.255.192 = 172.31.58.1 - 172.31.58.62
+vlan 10 - termelés   - g0/1.10 - 172.31.58.128 255.255.255.224 = 172.31.58.129 - 172.31.58.158 	
+vlan 20 - számlázás  - g0/1.20 - 172.31.58.192 255.255.255.240 = 172.31.58.193 - 172.31.58.206	
+vlan 99 - MANAGEMENT - g0/1.99 -172.31.58.160 255.255.255.224 = 172.31.58.161 - 172.31.58.190
+
+SWITCH0
+Switch(config)#int fa0/2
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 10
+                                        ^
+Switch(config-if)#int fa0/4
+Switch(config-if)#switchport mode access 
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int vlan 1
+Switch(config-if)#switchport mode Access
+Switch(config-if)#switchport access vlan 1
+
+ROUTER 0
+ip dhcp excluded-address 172.31.58.129 172.31.58.138
+ip dhcp excluded-address 172.31.58.193 172.31.58.202
+!
+ip dhcp pool DHCP-pool-VLAN10
+ network 172.31.58.128 255.255.255.224
+ default-router 172.31.58.129
+ dns-server 6.6.6.6
+ip dhcp pool DHCP-pool-VLAN20
+ network 172.31.58.192 255.255.255.240
+ default-router 172.31.58.193
+ dns-server 6.6.6.6
+…
+…
+interface GigabitEthernet0/1.1
+ encapsulation dot1Q 1 native
+ ip address 172.31.58.1 255.255.255.192
+!
+interface GigabitEthernet0/1.10
+ encapsulation dot1Q 10
+ ip address 172.31.58.129 255.255.255.224
+!
+interface GigabitEthernet0/1.20
+ encapsulation dot1Q 20
+ ip address 172.31.58.193 255.255.255.240
+!
+interface GigabitEthernet0/1.99
+ encapsulation dot1Q 99
+ ip address 172.31.58.161 255.255.255.224
+
+OSPF
+R1
+network 172.31.58.0 0.0.0.63 area 3
+network 172.31.58.128 0.0.0.31 area 3
+network 172.31.58.192 0.0.0.15 area 3
+network 172.31.58.160 0.0.0.31 area 3
+network 172.31.58.208 0.0.0.3 area 3
+R2
+router ospf 15
+network 172.31.58.208 0.0.0.3 area 3
+network 172.31.58.212 0.0.0.3 area 3
+network 172.31.58.64 0.0.0.31 area 3
+R3
+router ospf 15
+network 172.31.58.212 0.0.0.3 area 3
+network 172.31.58.96 0.0.0.31 area 3
+
+

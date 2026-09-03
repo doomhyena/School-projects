@@ -1,0 +1,191 @@
+Vlan 1  -            - g0/1.1  -172.31.58.0 255.255.255.192 = 172.31.58.1 - 172.31.58.62
+vlan 10 - termelés   - g0/1.10 - 172.31.58.128 255.255.255.224 = 172.31.58.129 - 172.31.58.158 	
+vlan 20 - számlázás  - g0/1.20 - 172.31.58.192 255.255.255.240 = 172.31.58.193 - 172.31.58.206	
+vlan 99 - MANAGEMENT - g0/1.99 -172.31.58.160 255.255.255.224 = 172.31.58.161 - 172.31.58.190
+
+SWITCH0
+Switch(config)#int fa0/2
+Switch(config-if)#switchport mode access
+Switch(config-if)#switchport access vlan 10
+                                        ^
+Switch(config-if)#int fa0/4
+Switch(config-if)#switchport mode access 
+Switch(config-if)#switchport access vlan 20
+
+Switch(config-if)#int vlan 1
+Switch(config-if)#switchport mode Access
+Switch(config-if)#switchport access vlan 1
+
+ROUTER 0
+ip dhcp excluded-address 172.31.58.129 172.31.58.138
+ip dhcp excluded-address 172.31.58.193 172.31.58.202
+!
+ip dhcp pool DHCP-pool-VLAN10
+ network 172.31.58.128 255.255.255.224
+ default-router 172.31.58.129
+ dns-server 6.6.6.6
+ip dhcp pool DHCP-pool-VLAN20
+ network 172.31.58.192 255.255.255.240
+ default-router 172.31.58.193
+ dns-server 6.6.6.6
+…
+…
+interface GigabitEthernet0/1.1
+ encapsulation dot1Q 1 native
+ ip address 172.31.58.1 255.255.255.192
+!
+interface GigabitEthernet0/1.10
+ encapsulation dot1Q 10
+ ip address 172.31.58.129 255.255.255.224
+!
+interface GigabitEthernet0/1.20
+ encapsulation dot1Q 20
+ ip address 172.31.58.193 255.255.255.240
+!
+interface GigabitEthernet0/1.99
+ encapsulation dot1Q 99
+ ip address 172.31.58.161 255.255.255.224
+
+OSPF
+R1
+network 172.31.58.0 0.0.0.63 area 3
+network 172.31.58.128 0.0.0.31 area 3
+network 172.31.58.192 0.0.0.15 area 3
+network 172.31.58.160 0.0.0.31 area 3
+network 172.31.58.208 0.0.0.3 area 3
+R2
+router ospf 15
+network 172.31.58.208 0.0.0.3 area 3
+network 172.31.58.212 0.0.0.3 area 3
+network 172.31.58.64 0.0.0.31 area 3
+R3
+router ospf 15
+network 172.31.58.212 0.0.0.3 area 3
+network 172.31.58.96 0.0.0.31 area 3
+
+ACL
+ACL1
+R3
+access-list 10 deny 172.31.58.0 0.0.0.63
+access-list 10 deny 172.31.58.128 0.0.0.31
+access-list 10 deny 172.31.58.192 0.0.0.15
+access-list 10 deny 172.31.58.160 0.0.0.31
+access-list 10 permit any
+
+interface GigabitEthernet0/0
+ ip address 172.31.58.97 255.255.255.224
+ ip access-group 10 out
+
+ACL2
+access-list 101 deny icmp 172.31.58.0 0.0.0.63 any echo
+access-list 101 deny icmp 172.31.58.128 0.0.0.31 any echo
+access-list 101 deny icmp 172.31.58.192 0.0.0.15 any echo
+access-list 101 deny icmp 172.31.58.160 0.0.0.31 any echo
+access-list 101 permit ip any any
+
+interface Serial0/3/0
+ ip address 172.31.58.210 255.255.255.252
+ ip access-group 101 in
+
+ACL 3 - nem teljes
+access-list 102 deny tcp 172.31.58.96 0.0.0.31 host 172.31.58.67 eq www
+access-list 102 permit ip any any
+
+R2(config-if)#int s0/3/1
+R2(config-if)#no ip access-group 102 in
+
+2026.08.18
+R2
+interface Serial0/3/0
+ ip address 172.31.58.210 255.255.255.252
+ ip access-group 101 in
+R3
+interface Serial0/3/0
+ ip address 172.31.58.214 255.255.255.252
+ ip access-group 10 in
+
+access-list 102 deny tcp 172.31.58.96 0.0.0.31 host 172.31.58.67 eq www
+access-list 102 deny tcp 172.31.58.96 0.0.0.31 host 172.31.58.2 eq www
+access-list 102 permit ip any any
+
+
+ACL3
+R2
+interface s0/3/1 in
+
+aug. 21 -> éjfél - 2026.08.18 - OK!
+
+ACL4
+R1
+password R1
+username R1 password 0 R1
+ip domain-name komlex1.info
+ip ssh version 2
+crypto KEY generate rsa
+line vty 0 4
+ login local
+ transport input ssh
+line vty 5 15
+ login local
+ transport input ssh
+
+R3
+password R3
+username R3 password 0 R3
+ip domain-name komlex3.info
+ip ssh version 2
+crypto KEY generate rsa
+line vty 0 4
+ login local
+ transport input ssh
+line vty 5 15
+ login local
+ transport input ssh
+
+R1
+ip access-list extended ssh-tiltas-r1
+ deny tcp 172.31.58.0 0.0.0.63 any eq 22
+ deny tcp 172.31.58.128 0.0.0.31 any eq 22
+ deny tcp 172.31.58.192 0.0.0.15 any eq 22
+ permit ip any any
+
+interface GigabitEthernet0/1.1
+ encapsulation dot1Q 1 native
+ ip address 172.31.58.1 255.255.255.192
+ ip access-group ssh-tiltas-r1 in
+!
+interface GigabitEthernet0/1.10
+ encapsulation dot1Q 10
+ ip address 172.31.58.129 255.255.255.224
+ ip access-group ssh-tiltas-r1 in
+!
+interface GigabitEthernet0/1.20	
+ encapsulation dot1Q 20
+ ip address 172.31.58.193 255.255.255.240
+ ip access-group ssh-tiltas-r1 in
+
+R2-en nincs konfigurációs feladat
+
+R3
+ip access-list extended ssh-tiltas-r3
+ deny tcp 172.31.58.96 0.0.0.31 any eq 22
+ permit ip any any
+
+interface GigabitEthernet0/0
+ ip address 172.31.58.97 255.255.255.224
+ ip access-group ssh-tiltas-r3 in
+
+
+ACL5
+
+access-list 104 permit ip host 172.31.58.101 host 172.31.58.67
+access-list 104 permit ip host 172.31.58.101 host 172.31.58.2
+access-list 104 permit ip host 172.31.58.101 host 172.31.58.97
+access-list 104 permit ip host 172.31.58.101 host 172.31.58.213
+access-list 104 permit ip host 172.31.58.101 host 172.31.58.209
+access-list 104 deny ip any any
+
+
+interface GigabitEthernet0/0
+ ip address 172.31.58.97 255.255.255.224
+ ip access-group 104 in

@@ -1,0 +1,73 @@
+Step 2:
+a.)
+S1 Access 
+fa0/5 - 6
+S1(config)#int range fa0/5 - 6
+S1(config-if-range)#switchport mode access 
+S1(config-if-range)#switchport access vlan 10
+b.)
+S2 Access
+FA0/18
+2(config)#int fa0/18
+S2(config-if)#switchport mode access 
+S2(config-if)#switchport ACCess VLAN 10
+
+Step 3:
+a.)  
+S1 Unused ports
+fa0/2 - 4, fa0/7 - 24, g0/1 - 2
+
+S1(config)#int range fa0/2 - 4, fa0/7 - 24, g0/1 - 2
+S1(config-if-range)#switchport mode access 
+S1(config-if-range)#switchport access vlan 999
+S1(config-if-range)#shutdown
+
+S2 Unused ports:
+fa0/2 - 17, fa0/19 - 24, g0/1 -2
+S2(config)#int range fa0/2 - 17, fa0/19 - 24, g0/1 -2
+S2(config-if-range)#switchport mode access 
+S2(config-if-range)#switchport access vlan 999
+S2(config-if-range)#shutdown
+
+Step 4:
+a.) show port-security interface f0/6
+b,) 
+S1(config)#int fa0/6
+S1(config-if)#switchport port-security 
+S1(config-if)#switchport port-security maximum 3
+S1(config-if)#switchport port-security violation restrict 
+S1(config-if)#switchport port-security aging time 60
+c.)
+show port-security interface f0/6
+d.)
+S2(config-if)#switchport port-security 
+S2(config-if)#switchport port-security mac-address styky
+e.)
+S2(config-if)#switchport port-security maximum 2
+S2(config-if)#switchport port-security violation protect
+S2(config-if)#switchport port-security aging time 60
+f.)
+show port-security interface f0/18
+
+STEP 5:
+a.)
+S2(config)#ip dhcp snooping 
+S2(config)#ip dhcp snooping  vlan 10
+b.)
+S2(config)#int fa0/1
+S2(config-if)#ip dhcp snooping trust
+c.)
+S2(config-if)#int fa0/18
+S2(config-if)#ip dhcp snooping limit rate 5
+d.)
+show ip dhcp snooping
+e.)
+C:\Users\Student> ipconfig /release
+C:\Users\Student> ipconfig /renew
+f.)
+
+ 
+
+
+
+                                        

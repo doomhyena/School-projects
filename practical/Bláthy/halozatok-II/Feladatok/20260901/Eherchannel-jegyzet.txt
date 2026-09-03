@@ -1,0 +1,20 @@
+
+
+TÖRLÉS:
+S3(config)#int range g0/1 - 2
+S3(config-if-range)#no int port-channel 1
+S3(config)#int range fa0/23 - 24
+S3(config-if-range)#no int port-channel 4
+%Invalid interface type and number
+S3(config)#int range fa0/21 - 22
+S3(config-if-range)#no int port-channel 6
+
+BEÁLLÍTÁS:
+S3(config-if-range)#int range g0/1 - 2
+S3(config-if-range)#channel-group 1 mode active
+
+
+EREDMÉNY:
+1      Po1(SU)           LACP   Gig0/1(P) Gig0/2(P) 
+4      Po4(SU)           LACP   Fa0/23(P) Fa0/24(P) 
+6      Po6(SU)           LACP   Fa0/21(P) Fa0/22(P) 

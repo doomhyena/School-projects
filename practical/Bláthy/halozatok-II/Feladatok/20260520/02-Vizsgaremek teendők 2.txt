@@ -1,0 +1,69 @@
+VIZSGAREMEK FELADATKITŰZÉS (2026.04.18)
+Általános szabályok:
+- Mindenhol kell IPv6 címzés
+- Lehetőleg 1 problémakör 1 alhálózatot érintsen
+	pl.: DHCP/VLAN/WLan 1-1 alhálózatot 
+Tartalmi elelemnek
+0.) Topológia OK
+1.-A) IPv4 címzés
+	- Ajánlott Belső lokális ip-címtartományok:
+		10.10.0.0 /16
+		172.168.0.0 /16
+		192.168.0.0 /16
+		ip címtartományokat a CISCO-s gyakorlatokból érdemes választani! 
+	- Saját honlap kialakítás (OPCIONÁLIS és ha marad rá idő!!!!!)
+	Kapcsolódó gyakorlatok: 4.2.8
+1.-B) - IPv6 címzés
+	Kapcsolódó gyakorlatok:
+	
+2.) VLAN (Virtual LAN) legalább egy telephelyen több VLAN kialakítását foglalja magában
+	- A VLAN alhálózta mimimum 60 hostot tartalmazzon (64 bites szegmens->2^6-en->6 bit )
+	- minimálisan 4 VLAN
+	- Kötelező VLANok: 
+		1.) Hálózat Management/Native -> ip címigény: roure interfész+ a switcek száma [mimimum 5 host]
+		2.) VoIP VLAN (a főnök gépe előtt egy IP-telefon) ip címigény:  [mimimum 5 host]
+		3.) Vállalat management	[mimimum 10 host]
+		4.) Saját válaszás 
+- VOIp előkészítés
+	Kapcsolódó gyakorlatok: 4.2.8 (2026.04.14),
+				3.6.2 (2026.04.11)
+				3.6.1 (2026.03.31) VoIP
+3.)Vezeték nélküli hálózatot is tartalmaz
+---------------------------------------------------------------
+4.) IPv4 (OK) és IPv6 címzési (még megbeszálendő) rendszert egyaránt használ
+"IPv4 és IPv6 címzési rendszert egyaránt használ"
+	Kapcsolódó gyakorlatok:
+
+5.) statikus !!! és dinamikus forgalomirányítást (OK) egyaránt megvalósít??????
+
+************************************************************************************	
+6.) NAT	megvalósítása							  
+	0.) TOPOLÓGIA:  2026.05.20-i órai feladatnak megfelelő legyen
+	1.) Belső cím tartomány definiálása -> 
+			az az ip címtaromány, amiből az ip kezdtétek számolni (amit a VLSM kalkulátorba először beírtatok/amit
+		 felosztottatok!) pl: access-list 1 permit 192.168.1.0 0.0.0.255
+	2.) Külső cím tartomány definiálása -> csak elméletben lesz, a dokumntációban feltüntetve
+	3.) Külső és belső címtartomány összerendelése:
+		pl.: ip nat inside source list 1 interface GigabitEthernet0/0 overload	(egy tuti hibamentes megoldás!!!!)
+		+ 1 statikus hozzárendelés -> a vizsgaremekben legyen 1 belső szerver és annak a belső ip-címe legyen statikusan kiNAT-			olva, felhasználva a belső globális ip címtartomány utolsó elemét:
+			pl.: ip nat inside source static 192.168.1.2 (<-belső cím) 209.165.200.229 (<-külső cím)
+	3.) Interfészek meghatározása
+		inside/outside
+	4. TESZTELÉS: az show ip nat translations parancs kimenete, amit megelős 2 pc-ről kiadva a ping -t 209.165.200.1->ping flood 		parancs
+	Kapcsolódó gyakorlatok:
+		2026.05.20 - 6.8.2-lab---configure-nat-for-ipv4_hu-HU.pdf (NAT)
+************************************************************************************	
+
+
+
+
+
+
+
+
+
+192.168.0.00000000 /30
+
+54.209.180.000|00000 /28
+
+

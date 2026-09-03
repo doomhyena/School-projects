@@ -1,0 +1,68 @@
+VLAN
+10 - termeles - 15 host
+20 - szamazas - 10 host
+99 - management - 15 host
+
+0. - Az íp-címtartomámyok meghatározása
+		íp-címtartomámyok === alhálózatok száma
+	= 5 alhálózat
+
+1. Ip cím-igények felmérése
+10 - termeles - 15 host
+20 - szamazas - 10 host
+99 - management - 15 host
+SOROS1 - 2 host
+LAN2	- 62 host
+
+2. Az Ip cím-igények csökkenő sorrendbe rendezése			IPv4
+
+IPv4 tartomány
+0.0.0.0
+0.0.0.1
+….
+0.0.0.255
+0.0.1.0
+….
+0.0.1.255
+0.0.2.0
+….
+0.0.255.255
+0.1.0.0
+….
+255.255.255.254
+255.255.255.255
+
+VLSM <-> FIX hosszúságú alhálózat maszok				
+LAN2		- 62 host	65 - ([62=2^6===64]----62+3->65=2^7=128 ip cím)	-> 65!!!!-> 128				
+10 - termeles 	- 15 host	15 - ([15= 2^4===16]----15+3->18=2^5)=32 ip cím)						- 
+99 - management - 15 host						
+20 - szamazas 	- 10 host	+3 -> 	2^4===16				
+SOROS1 		- 2 host	2 - ([2= 2^1===2]----2+2->4=2^2)) -> 255.255.255.252 /30 -minden soros vonalra egyaránt jellemző					
+VLSM nélkül = 5*128=640 ip cím === FIX hosszúságú alhálózat maszok
+VLSM-mel = 128+32+32+16+4=212
+SPÓROLÁS = 428
+
+Bináris összeadás
+0+0= 0
+1+0= 1
+0+1= 1
+1+1=10
+
+LAN2	- 62 host -62+3->65=2^7=128 ip cím		
+10 - termeles 	- 15 host -15+3->18=2^5)=32 ip cím						- 
+99 - management - 15 host -15+3->18=2^5)=32 ip cím						
+20 - szamazas 	- 10 host - 10+3->13 = 2^4===16	ip cím			
+SOROS1 		- 2 host  - 2+2->4=2^2 === 4 ipcím
+
+VLAN
+10 - termeles 	- g0/0.10 - 10.10.0.128/27 - 255.255.255.224
+20 - szamazas 	- g0/0.20 - 10.10.0.192/28 - 255.255.255.240
+99 - management - g0/0.99 - 10.10.0.160/27 - 255.255.255.224
+
+
+
+
+
+
+
+
